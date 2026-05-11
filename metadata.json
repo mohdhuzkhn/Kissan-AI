@@ -1,0 +1,6 @@
+{
+  "name": "Kisan AI",
+  "description": "Smart AI assistant for Pakistani farmers to diagnose crop diseases and get expert advisory in Urdu and English.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["AI Image Analysis", "Agricultural Advisory", "Multilingual Support"]
+}

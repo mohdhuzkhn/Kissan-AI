@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-urdu: "Noto Sans Arabic", serif;
+}
+
+:root {
+  --background: #f8faf9;
+  --primary: #1a531b;
+  --primary-foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  font-family: var(--font-sans);
+  color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+.urdu-text {
+  font-family: var(--font-urdu);
+  direction: rtl;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Custom styles for matching screenshots */
+.gradient-bg {
+  background: linear-gradient(135deg, #1a531b 0%, #2e7d32 100%);
+}
+
+.tab-active {
+  color: #1a531b;
+  background-color: #f0fdf4;
+}
+

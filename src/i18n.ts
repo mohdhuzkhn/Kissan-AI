@@ -1,0 +1,160 @@
+export const translations = {
+  en: {
+    appName: 'Kisan AI',
+    tagline: 'Protecting Every Crop',
+    languageToggle: 'اردو / EN',
+    tabs: {
+      analyzer: 'Analyzer',
+      advisory: 'Advisory',
+      fieldLogs: 'Field Logs',
+      analytics: 'Analytics',
+      camera: 'Camera',
+      crop: 'Crop'
+    },
+    analyzer: {
+      title: 'Capture Your Crop',
+      subtitle: 'Upload a clear photo for instant diagnosis of diseases and pests.',
+      tip: 'Keep leaf straight, take photo in shade, and take it closely.',
+      selectCrop: 'Select Crop',
+      uploadBtn: 'Upload Photo',
+      analyzing: 'Analyzing...',
+      wait: 'Please wait a moment',
+      error: 'Error during analysis. Please try again.',
+      invalidImage: 'Please upload a photo of a crop or plant leaf',
+      selectCropFirst: 'Please select a crop first',
+      noInternet: 'No Internet',
+      offlineMode: 'Offline Symptom Checker',
+      offlineDesc: 'Internet is not available. Please select the symptoms you see on your crop for an offline diagnosis.',
+      symptoms: {
+        title: 'Select Symptoms',
+        yellow_leaves: 'Yellow Leaves',
+        brown_spots: 'Brown Spots',
+        white_powder: 'White Powder',
+        wilting: 'Wilting',
+        black_spots: 'Black Spots',
+        holes: 'Holes in Leaves'
+      }
+    },
+    advisory: {
+      noData: 'No scan data available. Please analyze a crop first.',
+      openCamera: 'Open Camera',
+      healthy: 'Healthy',
+      diseased: 'Diseased',
+      confidence: 'Confidence',
+      isHealthyTitle: 'Your Crop is Healthy',
+      isHealthyDesc: 'According to our report, there is no disease found in the crop. Continue using timely fertilizers for better yield.',
+      recommendedCure: 'Recommended Cure',
+      mixingRatio: 'Mixing Ratio',
+      priceEstimate: 'Price Estimate',
+      yieldLossRisk: 'Yield Loss Risk',
+      projectedLoss: 'Projected Loss',
+      highRisk: 'High Risk',
+      financialImpact: 'Financial Impact',
+      earlyWarning: 'Early Warning Signs',
+      perAcre: 'per Acre',
+      imageNotAvailable: 'Photo not stored permanently'
+    },
+    fieldLogs: {
+      title: 'My Field Logs',
+      subtitle: 'Summary of your previous crop diagnoses',
+      healthy: 'HEALTHY',
+      diseased: 'DISEASED',
+      totalScans: 'TOTAL SCANS',
+      weeklyTrend: 'Weekly Trend',
+      recentScans: 'Recent Scans',
+      filter: 'FILTER',
+      noRecords: 'No records found'
+    },
+    analytics: {
+      title: 'Analytics',
+      subtitle: 'Complete health record of your farm',
+      commonDisease: 'Common Disease',
+      commonDiseaseSub: 'Most frequent issue',
+      totalScans: 'Total Scans',
+      cropHealth: 'Crop Health',
+      moneySaved: 'Money Saved',
+      topDiseases: 'Common Diseases (Top 5)',
+      cropDist: 'Crop Distribution',
+      noData: 'No data yet'
+    }
+  },
+  ur: {
+    appName: 'کسان اے آئی',
+    tagline: 'ہر فصل کی حفاظت',
+    languageToggle: 'EN / اردو',
+    tabs: {
+      analyzer: 'تجزیہ کار',
+      advisory: 'مشورہ',
+      fieldLogs: 'فیلڈ لاگ',
+      analytics: 'تجزیہ',
+      camera: 'کیمرہ',
+      crop: 'فصل'
+    },
+    analyzer: {
+      title: 'اپنی فصل کی تصویر لیں',
+      subtitle: 'بیماریوں اور کیڑوں کی فوری تشخیص کے لیے صاف تصویر اپلوڈ کریں۔',
+      tip: 'پتہ سیدھا رکھیں، چھاؤں میں فوٹو لیں، قریب سے لیں',
+      selectCrop: 'فصل منتخب کریں',
+      uploadBtn: 'تصویر اپلوڈ کریں',
+      analyzing: 'تجزیہ ہو رہا ہے',
+      wait: 'برائے مہربانی تھوڑا انتظار کریں',
+      error: 'تجزیہ میں دشواری پیش آئی۔ دوبارہ کوشش کریں۔',
+      invalidImage: 'براہ کرم فصل یا پودے کی تصویر اپلوڈ کریں',
+      selectCropFirst: 'پہلے فصل منتخب کریں',
+      noInternet: 'انٹرنیٹ نہیں ہے',
+      offlineMode: 'آف لائن علامات کی جانچ',
+      offlineDesc: 'انٹرنیٹ دستیاب نہیں ہے۔ آف لائن تشخیص کے لیے اپنی فصل پر نظر آنے والی علامات منتخب کریں۔',
+      symptoms: {
+        title: 'علامات منتخب کریں',
+        yellow_leaves: 'پیلے پتے',
+        brown_spots: 'بھورے دھبے',
+        white_powder: 'سفید سفوف',
+        wilting: 'مرجھانا',
+        black_spots: 'کالے دھبے',
+        holes: 'پتوں میں سوراخ'
+      }
+    },
+    advisory: {
+      noData: 'کوئی ڈیٹا موجود نہیں ہے۔ پہلے فصل کی تصویر لیں۔',
+      openCamera: 'کیمرہ کھولیں',
+      healthy: 'صحت مند',
+      diseased: 'بیمار',
+      confidence: 'یقین دہانی',
+      isHealthyTitle: 'آپ کی فصل ٹھیک ہے',
+      isHealthyDesc: 'ہماری رپورٹ کے مطابق فصل میں کوئی بیماری نہیں ہے۔ بہتر پیداوار کے لیے بروقت کھاد کا استعمال جاری رکھیں۔',
+      recommendedCure: 'تجویز کردہ علاج',
+      mixingRatio: 'مکس کرنے کی شرح',
+      priceEstimate: 'تقریبی قیمت',
+      yieldLossRisk: 'پیداوار کا نقصان',
+      projectedLoss: 'تخمینہ نقصان',
+      highRisk: 'زیادہ خطرہ',
+      financialImpact: 'مالی اثر',
+      earlyWarning: 'ابتدائی علامات',
+      perAcre: 'فی ایکڑ',
+      imageNotAvailable: 'فوٹو محفوظ نہیں کی گئی'
+    },
+    fieldLogs: {
+      title: 'میرے کھیت کے ریکارڈ',
+      subtitle: 'آپ کی پچھلی فصلوں کی تشخیص کا خلاصہ',
+      healthy: 'صحت مند',
+      diseased: 'بیمار',
+      totalScans: 'کل اسکینز',
+      weeklyTrend: 'ہفتہ وار رجحان',
+      recentScans: 'حالیہ اسکینز',
+      filter: 'فلٹر',
+      noRecords: 'کوئی ریکارڈ نہیں ملا'
+    },
+    analytics: {
+      title: 'تجزیہ',
+      subtitle: 'آپ کے فارم کی صحت کا مکمل ریکارڈ',
+      commonDisease: 'عام بیماری',
+      commonDiseaseSub: 'سب سے زیادہ مسئلہ',
+      totalScans: 'کل اسکین',
+      cropHealth: 'فصل کی صحت',
+      moneySaved: 'بچت کی رقم',
+      topDiseases: 'عام بیماریاں (ٹاپ 5)',
+      cropDist: 'فصلوں کی تقسیم',
+      noData: 'ابھی تک کوئی ڈیٹا نہیں ہے'
+    }
+  }
+};
