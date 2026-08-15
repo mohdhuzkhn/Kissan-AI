@@ -1,35 +1,39 @@
 # Kissan AI
 
-<div align="center">
-  <img width="1200" height="475" alt="Kissan AI Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+An AI-powered farming advisory platform that helps farmers and agronomists make better decisions through intelligent crop analysis, field monitoring, and data-driven insights.
 
 ---
 
 ## Overview
 
-**Kissan AI** is an AI‑powered web application that enriches real‑estate lead datasets by automatically finding missing contact information such as email, phone number, and owner details. It combines multiple data sources, intelligent scraping, and large‑language‑model reasoning to deliver high‑quality, up‑to‑date lead data.
+**Kissan AI** ("Kissan" meaning *farmer* in Hindi/Urdu) is a web application that brings large-language-model reasoning to agriculture. It gives farmers a single place to get crop advisory guidance, analyze field data, track logs over time, and view analytics — all powered by Google's Gemini AI models.
+
+The app is built as a modern single-page application with a tabbed workflow, making it easy to move between advisory chat, analytics dashboards, field data analysis, and historical field logs.
 
 ---
 
 ## Features
 
-- **Automated Lead Enrichment** – Detects incomplete rows and populates missing fields.
-- **Multi‑Source Search** – Integrates FastPeopleSearch, TruePeopleSearch, Whitepages, and Google.
-- **AI‑Driven Decision Making** – Uses Gemini/Nemotron models to decide the best source for each field.
-- **Modern Front‑End** – Built with Vite, React, and TypeScript for a smooth UI experience.
-- **Configurable API Keys** – All external services are configurable via environment variables.
-- **Production Ready** – Easily deployable to Vercel, Netlify, or any static‑site host.
+- **AI Crop Advisory** – Conversational, AI-driven guidance on crop health, farming practices, and agronomic decisions.
+- **Analytics Dashboard** – Visual insights into field performance and trends over time.
+- **Field Analyzer** – Upload and analyze field data or imagery to detect issues and opportunities.
+- **Field Logs** – Maintain a running history of field activity and observations.
+- **Gemini-Powered Reasoning** – Uses Google's Gemini models via a dedicated service layer for AI responses.
+- **Modern Front-End** – Built with Vite, React, and TypeScript for a fast, responsive UI.
+- **Configurable API Keys** – All external AI services are configurable via environment variables.
+- **Production Ready** – Easily deployable to Vercel, Netlify, or any static-site host.
 
 ---
 
 ## Tech Stack
 
-- **Framework**: Vite + React
-- **Language**: TypeScript
-- **Styling**: CSS (custom design system) – can be extended with Tailwind if desired
-- **AI Backend**: Gemini/Nemotron via `geminiService.ts`
-- **Version Control**: Git & GitHub
+| Layer | Technology |
+|---|---|
+| Framework | Vite + React |
+| Language | TypeScript |
+| Styling | CSS (custom design system) |
+| AI Backend | Google Gemini via `geminiService.ts` |
+| Version Control | Git & GitHub |
 
 ---
 
@@ -70,7 +74,7 @@ npm run build
 # The static files are generated in the `dist/` directory.
 ```
 
-You can then deploy the `dist/` folder to any static‑site host.
+Deploy the resulting `dist/` folder to any static-site host (Vercel, Netlify, etc.).
 
 ---
 
@@ -78,18 +82,22 @@ You can then deploy the `dist/` folder to any static‑site host.
 
 ```
 src/
-├─ App.tsx               # Root component
-├─ main.tsx              # Application entry point
-├─ components/           # Re‑usable UI components
-├─ tabs/                 # Feature tabs (Advisory, Analytics, Analyzer, FieldLogs)
-├─ services/geminiService.ts  # Wrapper for Gemini API calls
-├─ lib/utils.ts          # Helper utilities
-├─ index.css             # Global styles
-│
-public/
-├─ index.html            # HTML template
-│
-.env.example              # Example environment configuration
+├─ App.tsx                     # Root component
+├─ main.tsx                    # Application entry point
+├─ components/                 # Reusable UI components
+├─ tabs/                       # Feature tabs
+│  ├─ Advisory.tsx             #   AI crop advisory chat
+│  ├─ Analytics.tsx            #   Field analytics dashboard
+│  ├─ Analyzer.tsx             #   Field data / image analyzer
+│  └─ FieldLogs.tsx            #   Historical field activity logs
+├─ services/
+│  └─ geminiService.ts         # Wrapper for Gemini API calls
+├─ lib/
+│  └─ utils.ts                 # Helper utilities
+└─ index.css                   # Global styles
+
+index.html                     # HTML template
+.env.example                   # Example environment configuration
 ```
 
 ---
@@ -97,24 +105,24 @@ public/
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
+
 1. Fork the repository.
 2. Create a feature branch (`git checkout -b feature/your-feature`).
 3. Commit your changes with clear messages.
 4. Open a pull request describing the changes.
 
-Please ensure that linting and TypeScript checks pass before submitting.
+Please ensure linting and TypeScript checks pass before submitting.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](https://github.com/mohdhuzkhn/Kissan-AI/blob/main/LICENSE) file for details.
 
 ---
 
 ## Contact
 
 - **Author**: Mohd Huzkhan
-- **GitHub**: [mohdhuzkhn](https://github.com/mohdhuzkhn)
+- **GitHub**: [@mohdhuzkhn](https://github.com/mohdhuzkhn)
 - **Issues**: Feel free to open an issue for bug reports or feature requests.
-   K i s s a n - A I -
